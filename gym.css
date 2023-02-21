@@ -1,0 +1,118 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background :url("craig-lovelidge-ndr4vtteVGw-unsplash.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* .blurred-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    filter: blur(10px);
+    z-index: -1;
+  } */
+
+.left{
+    line-height: 0%;
+    display: inline-block; 
+    /* border: 2px solid rgb(255, 0, 0);     */
+    position:absolute;
+    display: inline-block; 
+    margin: 30px;
+    top: 0px;
+    left: 60px;
+}
+.left img {
+    padding: 0px 48px;
+    width: 65px;
+    filter: invert(100%);
+}
+.left p{
+    margin: 30px;
+    font: bold;
+    color: #FED600;
+    text-align: center;
+}
+.mid{ 
+    display: block;
+    padding: 0%;
+    width: 39%;
+    margin: 30px auto;
+    /* border: 2px solid rgb(89, 0, 255); */
+}
+.right{
+    position:absolute;
+    display: inline-block; 
+    margin: 30px;
+    right: 10px;
+    top: 12px;
+    /* border: 2px solid rgb(255, 225, 0); */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;  
+    font-size: 15px;
+}
+.navbar li a{
+    font-weight: bold;
+    color: #FED600;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: #fdb501;
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #FED600;
+    padding: 4px 14px ;
+    border-radius: 10px;
+    font-size: 15 px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background: #fdb501;
+}
+.container{
+    margin: 70px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    padding: 50px 70px;
+    width: 30%;
+    border-radius: 2px;
+}
+.form-group input{
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    text-align: center;
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 102%;
+    width: 60%;
+    margin: 11px auto ;
+    padding: 1px;
+    font-size: 25px;
+    border-radius: 100px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    font-size: large;
+    display: block;
+    height: 30px;
+    width: 190px;
+    margin: 25px auto;
+}
